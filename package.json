@@ -1,0 +1,28 @@
+{
+  "name": "i18n-extract-replace-tool",
+  "version": "1.11.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yumiluo@tencent.com",
+  "license": "ISC",
+  "keywords": [
+    "i18n",
+    "ast",
+    "webpack",
+    "vue-i18n"
+  ],
+  "dependencies": {
+    "@babel/generator": "^7.15.4",
+    "@babel/parser": "^7.15.5",
+    "@babel/traverse": "^7.15.4",
+    "@vue/compiler-core": "^3.2.8",
+    "csv-parse": "^4.16.3",
+    "csv-stringify": "^5.6.5",
+    "node-csv": "^0.1.2",
+    "pug": "^3.0.2",
+    "vue-template-compiler": "^2.5.16"
+  }
+}
